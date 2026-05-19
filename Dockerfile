@@ -1,3 +1,3 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk
 COPY "./target/futbol-app-1.jar" "app.jar"
 EXPOSE 8120
